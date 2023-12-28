@@ -80,7 +80,7 @@ body {
   padding: 10px;
   overflow: hidden;
   background-color: rgb(221, 225, 231);
-  color: rgba(79, 79, 79, 0.68);
+  color: #888888;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(199, 199, 199, 0.98),    -2px -2px 6px rgba(246, 246, 246, 0.912),    inset 1px 1px 2px rgba(246, 246, 246, 0.912),    inset -1px -1px 2px rgba(199, 199, 199, 0.98);
   cursor: pointer;
@@ -125,6 +125,9 @@ body {
   .key:active{
     font-size: 0.9rem;
   }
+  img{
+    width: 1.4rem;
+  }
 }
 
 @media  screen and (max-width: 768px) {
@@ -132,10 +135,13 @@ body {
     gap: 6px;
   }
   .key{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .key:active{
     font-size: 0.8rem;
+  }
+  img{
+    width: 1.2rem;
   }
 }
 
@@ -148,5 +154,8 @@ body {
   }
   .key:active{
     font-size: 0.5rem;
+  }
+  img{
+    width: 0.8rem;
   }
 }
